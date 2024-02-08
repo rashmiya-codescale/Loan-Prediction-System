@@ -1,6 +1,6 @@
 import express, { Express, Request, Response, Application } from "express";
 import dotenv from "dotenv";
-import userRoutes from "./src/routes/userRoutes";
+import userRoutes from "./public/src/routes/userRoutes";
 import mongoose from "mongoose";
 
 //For env File
